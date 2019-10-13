@@ -12,52 +12,6 @@
     android:layout_height="wrap_content">
 
 
-<!--    <EditText-->
-<!--        android:id="@+id/customer_name"-->
-<!--        android:layout_width="189dp"-->
-<!--        android:layout_height="49dp"-->
-<!--        android:layout_marginTop="460dp"-->
-<!--        android:hint="@string/name"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
-
-<!--    <EditText-->
-<!--        android:id="@+id/customer_phone_no"-->
-<!--        android:layout_width="189dp"-->
-<!--        android:layout_height="49dp"-->
-<!--        android:layout_marginTop="40dp"-->
-<!--        android:hint="@string/phone"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/customer_name" />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/square"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:padding="3dp"-->
-<!--        android:text="@string/square"-->
-<!--        app:layout_constraintBottom_toTopOf="@+id/chip_group"-->
-<!--        app:layout_constraintEnd_toStartOf="@+id/round"-->
-<!--        app:layout_constraintHorizontal_bias="1.0"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.964" />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/round"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginEnd="124dp"-->
-<!--        android:layout_marginBottom="3dp"-->
-<!--        android:text="@string/round"-->
-<!--        app:layout_constraintBottom_toTopOf="@+id/chip_group"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.984" />-->
-
-
     <ImageView
         android:id="@+id/selected_pizza_image"
         android:layout_width="149dp"
@@ -306,79 +260,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/contact_card_view"
         app:layout_constraintVertical_bias="1.0" />
-
-    <!--    <RadioGroup-->
-<!--        android:id="@+id/radio_ingredients"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.731"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.516">-->
-
-<!--        <RadioButton-->
-<!--            android:id="@+id/radio_no_Cheese"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/no_cheese" />-->
-
-<!--        <RadioButton-->
-<!--            android:id="@+id/radio_cheese"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/cheese" />-->
-
-<!--        <RadioButton-->
-<!--            android:id="@+id/radio_2x_cheese"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/_2x_cheese" />-->
-<!--    </RadioGroup>-->
-
-<!--    <CheckBox-->
-<!--        android:id="@+id/pepperoni"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginStart="80dp"-->
-<!--        android:text="@string/pepperoni"-->
-<!--        app:layout_constraintBottom_toTopOf="@+id/mush_rooms"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.815" />-->
-
-<!--    <CheckBox-->
-<!--        android:id="@+id/mush_rooms"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginBottom="28dp"-->
-<!--        android:text="@string/mushrooms"-->
-<!--        app:layout_constraintBottom_toTopOf="@+id/veggies"-->
-<!--        app:layout_constraintEnd_toStartOf="@+id/radio_ingredients"-->
-<!--        app:layout_constraintHorizontal_bias="0.661"-->
-<!--        app:layout_constraintStart_toStartOf="parent" />-->
-
-<!--    <CheckBox-->
-<!--        android:id="@+id/veggies"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginBottom="104dp"-->
-<!--        android:text="@string/veggies"-->
-<!--        app:layout_constraintBottom_toTopOf="@+id/customer_name"-->
-<!--        app:layout_constraintEnd_toStartOf="@+id/radio_ingredients"-->
-<!--        app:layout_constraintHorizontal_bias="0.59"-->
-<!--        app:layout_constraintStart_toStartOf="parent" />-->
-
-<!--    <CheckBox-->
-<!--        android:id="@+id/anchovies"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="@string/anchovies"-->
-<!--        app:layout_constraintBottom_toTopOf="@+id/customer_name"-->
-<!--        app:layout_constraintEnd_toStartOf="@+id/radio_ingredients"-->
-<!--        app:layout_constraintHorizontal_bias="0.61"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/veggies" />-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
